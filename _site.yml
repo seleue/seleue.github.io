@@ -1,0 +1,29 @@
+name: "seleue.github.io"
+navbar:
+  title: "Sebastian Leue"
+  # type: inverse
+  left:
+    - icon: icon-scholar
+      href: https://scholar.google.de/citations?user=oOzG4scAAAAJ&hl=de
+    # - icon: fa-github
+    #   href: https://github.com/se-schmidt
+    # - icon: fa-twitter
+    #   href: https://twitter.com/sbsmdt
+    
+  right:
+    - text: "Home"
+      href: index.html
+    # - text: "About"
+    #   href: about.html
+    - text: "CV"
+      href: files/CV.pdf
+    - text: "Research"
+      href: research.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    includes:
+      in_header: header.html
+      after_body: footer.html
+    css: styles.css
